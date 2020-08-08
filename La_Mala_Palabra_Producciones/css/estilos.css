@@ -1,0 +1,138 @@
+/*selectores*/
+
+body{
+  background-color: black;
+  color: black;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Oswald', cursive;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  color: rgb(163, 0, 0);
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+  color: white;
+  font-size: 25px;
+}
+
+.contenedor{
+  width: 95%;
+  margin: 0 auto 0 auto;
+  background-color: white;
+  border-radius:15px;
+}
+
+.cabeza {
+  color: rgb(163, 0, 0);
+  padding: 20px;
+}
+
+.cabeza img {
+  display: block;
+  margin: auto;
+  width: 350px;
+}
+
+.cuerpo {
+  padding: 50px;
+}
+
+.caja {
+  width: 85%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow:0px 0px 50px 30px #2f2e2e ;
+}
+
+figure {
+  width: 190px;
+  height: 100px;
+  overflow: hidden;
+  margin: inherit;
+  position: relative;
+}
+
+figure:hover p {
+  opacity: .7;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure p {
+  position: absolute;
+  font-size: 15px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: black;
+  padding: 120px;
+  text-align: center;
+  opacity: 0;
+  transition: 2s;
+}
+
+.ultimo-trabajo {
+  padding: 30px;
+  text-align: center;
+  background-color:rgb(163, 0, 0);
+  border-radius: 30px;
+  -webkit-box-shadow:8px 13px 15px 3px #000000 ;
+}
+
+.videos {
+  -webkit-box-shadow:0px 0px 50px 10px #000000 ;
+}
+
+.pie{
+  padding:50px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color:white;
+}
+
+@media screen and (max-width: 700px) {
+  .contenedor {
+    width: 100%;
+  }
+
+  .videos {
+    width: 90%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .cabeza img {
+    width: 250px;
+  }
+
+  .videos {
+    width: 90%;
+    height: 20%;
+  }
+}
+
+/*CREDITOS
+Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+*/

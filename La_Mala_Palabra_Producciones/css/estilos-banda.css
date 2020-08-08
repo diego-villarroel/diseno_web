@@ -1,0 +1,59 @@
+/*selectores*/
+.banda {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  font-family: 'Special Elite';
+}
+
+.banda ul li {
+  display: inline-block;
+  margin: 0 5px;
+  white-space: 50px;
+  text-align: center;
+}
+
+.banda ul li a {
+  display: block;
+  padding: 0 10px;
+  line-height: 50px;
+  transition: .4s;
+}
+
+.menu {
+  padding: 10px;
+  font-family: 'Special Elite';
+}
+
+.vinculo {
+  text-decoration: none;
+  color: rgb(163, 0, 0);
+  font-family: 'Special Elite';
+}
+
+.vinculo:hover {
+  color: white;
+  background-color: rgb(163, 0, 0);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.boton {
+  background-color: black;
+  color: rgb(163, 0, 0);
+  text-decoration: none;
+  padding: 20px;
+  align-items: center;
+  display: inline-block;
+}
+
+.boton:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/*CREDITOS
+Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+*/

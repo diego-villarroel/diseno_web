@@ -1,0 +1,89 @@
+/*selectores*/
+
+body{
+  background-color: black;
+  color: black;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Oswald', cursive;
+}
+
+h1 {
+  font-family: 'Oswald', cursive;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  color: rgb(163, 0, 0);
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+  color: white;
+  font-size: 25px;
+}
+
+.contenedor{
+  width: 95%;
+  margin: 0 auto 0 auto;
+  background-color: white;
+  border-radius:15px;
+}
+
+.cabeza {
+  color: rgb(163, 0, 0);
+  padding: 20px;
+}
+
+.cabeza img {
+  display: block;
+  margin: auto;
+  width: 350px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.cuerpo_A{
+  padding: 40px;
+  text-align: right;
+}
+
+.cuerpo_B{
+  padding: 40px;
+  text-align: left;
+}
+
+.videos {
+  -webkit-box-shadow:0px 0px 50px 10px #000000 ;
+}
+
+@media screen and (max-width: 700px) {
+  .contenedor {
+    width: 100%;
+  }
+
+  .videos {
+    width: 90%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .cabeza img {
+    width: 250px;
+  }
+
+  .videos {
+    width: 90%;
+    height: 20%;
+  }
+}
+/*CREDITOS
+Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+*/
