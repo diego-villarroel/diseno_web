@@ -6,26 +6,80 @@
 
 body {
   background-color: #ededed;
+  width: 95%;
+  margin: auto;
 }
 
-.home {
-  display: flex;
-  flex-wrap: wrap;
+.logo {
+  background: #FFFFFF;
 }
 
-.in-flex {
-  flex: 1;
-  min-width: 250px;
+  .logo img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+header nav {
+  background-color: #8b2c84;
+  text-decoration-color: #2b2b4d;
+  font-family: 'Indie Flower';
+  -webkit-transition: all ease .5seg;
+  -o-transition: all ease .5seg;
+  transition: all ease .5seg;
 }
-.in-flex:first-child {
-  flex: 2;
-  padding: 25px;
-  background-color: white;
-  margin: 20px;
-  margin-bottom: 0px;
+
+  header nav ul {
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+    header nav ul li {
+      float: left;
+    }
+
+      header nav ul li a {
+        display: block;
+        padding: 20px;
+        color: inherit;
+        text-decoration: none;
+        font-family: 'Indie Flower';
+      }
+
+      header nav ul li a:hover {
+        background-color: #64165e;
+        color: #FFFFFF;
+      }
+
+.menu-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 4px 3px rgba(0,0,0,.5);
 }
-.in-flex div {
-  padding: 25px;
-  background-color: white;
-  margin: 20px;
+
+  .menu-fixed ul li a {
+    padding: 15px 20px;
+  }
+
+.Contenedor {
+  padding: 10px;
+}
+
+.Caja-Solida {
+  background-color: #64165e;
+  padding: 20px;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Caja-Transparente {
+  padding: 20px;
+  width: 90%;
+  margin-top: 30px;
 }
